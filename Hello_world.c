@@ -1,7 +1,7 @@
-#include<stdio.h>
-void main()
-
+#include <stdio.h>
+int main(void)
 {
-    printf("Hello world");
+    puts("Hello world");
+    return 0;
 }
 
