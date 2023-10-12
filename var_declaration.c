@@ -24,12 +24,12 @@ int main()
     int Q1 = days_january + days_feburary + days_march;
     int Q2 = days_april + days_may + days_june;
     int Q3 =  days_july + days_august + days_september;
-    int Q4 =  days_october +days_november + days_december;
+    int Q4 =  days_october + days_november + days_december;
 
-    printf("First quarter of the current year: %d", Q1);
-    printf("Second quarter of the current year: %d", Q2);
-    printf("Third quarter of the current year: %d", Q3);
-    printf("Fourth quarter of the current year: %d", Q4);
+    printf("Days in first quarter of the current year: %d \n", Q1);
+    printf("Days in second quarter of the current year: %d \n", Q2);
+    printf("Days in third quarter of the current year: %d \n", Q3);
+    printf("Days in fourth quarter of the current year: %d", Q4);
 
     return 0;
 }
